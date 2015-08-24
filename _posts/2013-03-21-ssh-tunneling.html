@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "SSH Tunneling"
+date:   2013-03-21 23:38:00
+# image: /images/10505194_10152600876132430_5687309096170223867_o.jpg
+tags: [firefox, proxy, socks proxy, ssh]
+comments: false
+---
+
+<p>Have you ever launched a new site and found that your ISP, or your router, or your computer, or who-knows-what has cached the DNS and just won&#8217;t refresh? I do on a pretty frequent basis. I get around it with SSH Tunneling.</p>
+<p>I tunnel into my webserver on the other side of the country to use it&#8217;s ISP to fetch me the page and show me whether or not the domain provider has pushed the new DNS settings.</p>
+<p>It&#8217;s also very helpful if you are working on a live website and don&#8217;t want visitors to see the latest content until it&#8217;s perfect. What you can do is use the PHP $_SERVER variable (or your language&#8217;s variant) in a conditional to limit the view to just your location. You can then use the tunnel to check and make sure whatever you do in the back-end doesn&#8217;t make it to the front end until completion.</p>
+<p>You can read more about this <a href="http://www.privateproxyreviews.com/puttysshsocksproxy/" target="_blank">here</a> and use their tutorial to get your tunnel going. I prefer to use Firefox for this because it utilizes its own proxy settings. Chrome uses your computer&#8217;s proxy settings so your entire computer&#8217;s Internet connection will route through your server. Doing it in Firefox means you may view the site through your server and then use Chrome to see how it looks from your location.</p>
+<p>Happy Tunneling!</p>

@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "LESS - The Dynamic Stylesheet language"
+date:   2013-02-20 13:30:00
+# image: /images/10505194_10152600876132430_5687309096170223867_o.jpg
+tags: [css, javascript, less, lesscss, lessphp, php, web design]
+comments: false
+---
+
+<p>I don&#8217;t know if you guys have used it, or even have heard about it, but it&#8217;s something definitely worth considering. I&#8217;ve been using it for quite some time now and it really does make your life with CSS easier. You can read up on it <a href="http://lesscss.org/" target="_blank">here</a> and download it.</p>
+
+<p>It has a full set of features, but here are the ones I use pretty consistently:</p>
+
+<ul><li>Variables: great for helping maintain the color scheme without remember the hex codes for everything.</li>
+<li>Mixins: great for using repetitious code. For example, border-radius and each browser extension of it (-moz, -webkit, -o, -ms).</li>
+<li><strong>Nesting</strong> (bolded for emphasis): just nest everything like you are used to in other languages.</li>
+</ul><p>Because LESS is a javascript library to do this stuff, the page might load before the styles are fully rendered. To help avoid this, and to keep your css in a manner that does not require javascript, you have the option to use <a href="http://leafo.net/lessphp/" target="_blank">lessphp</a>. This will compile the code and deliver the css file and I&#8217;ve never had an issue of the page loading before the styles were done. I also prefer to compress the file so it&#8217;s much less load on the server and user.</p>
+
+<p>Here&#8217;s a code snippet of how I use lessphp. Put this in a file called styles.php (for example):</p>
+
+<pre><code>&lt;?php
+if(extension_loaded('zlib')) ob_start('ob_gzhandler');
+header("Content-type: text/css");
+include "css/lessc.inc.php";
+$less = new lessc;
+echo $less-&amp;gt;compileFile("css/styles.less");
+if(extension_loaded('zlib')) ob_end_flush();
+?&gt;
+</code></pre>
+
+<p>However you chose to use it, I&#8217;m sure it&#8217;ll make your life easier.</p>
+
+<p>Happy Styling</p>

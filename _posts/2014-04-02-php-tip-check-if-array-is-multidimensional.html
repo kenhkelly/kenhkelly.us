@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "PHP Tip: Check If Array Is Multidimensional"
+date:   2014-04-02 16:20:00
+# image: /images/10505194_10152600876132430_5687309096170223867_o.jpg
+tags: [php, phptip, web design, web development, tips]
+comments: false
+---
+
+<p>Here&#8217;s a handy little snippet that you can use to determine if the array you are about to work with is multidimensional or now.</p>
+
+<pre><code>if (count($array) == count($array, COUNT_RECURSIVE)) {
+    /* not multidimentional */
+} else {
+    /* multidimensional */
+}
+</code></pre>
+
+<p>By default, count() just counts the elements in the first level of the array. When you specify COUNT_RECURSIVE option, it loops through counting everything. If both match, it isn&#8217;t multidimensional.</p>

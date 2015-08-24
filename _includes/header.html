@@ -1,0 +1,52 @@
+ <div id="header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-hide" href="/">Ken Kelly</a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <div class="nav navbar-nav">
+          <ul class="menu nav navbar-nav">
+            <li class="menu-item {% if page.active == "home" %} current-menu-item {% endif %}"><a href="/">Home</a></li>
+            <li class="menu-item {% if page.active == "about" %} current-menu-item {% endif %}"><a href="/about-me">About Me</a></li>
+            <li class="menu-item {% if page.active == "portfolio" %} current-menu-item {% endif %}"><a href="/portfolio">Portfolio</a></li>
+            <li class="menu-item {% if page.active == "blog" %} current-menu-item {% endif %}"><a href="/blog">Blog</a>
+              <ul class="sub-menu">
+                <li class="menu-item"><a href="/tag/web-design">web dev/design</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="/tag/html">html</a></li>
+                    <li class="menu-item"><a href="/tag/javascript">javascript</a></li>
+                    <li class="menu-item"><a href="/tag/css">css</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="/tag/php">php</a></li>
+                <li class="menu-item"><a href="/tag/code">code</a></li>
+                <li class="menu-item"><a href="/tag/seo">seo</a></li>
+                <li class="menu-item"><a href="/tag/tips">tips</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div> 
+        <div class="nav navbar-nav navbar-right">
+          <ul class="menu nav navbar-nav">
+            <li class="menu-item {% if page.active == "contact" %} current-menu-item {% endif %}"><a href="/contact">Contact Me</a></li>
+            <li class="z-facebook menu-item"><a target="_blank" href="http://www.facebook.com/kenhkelly">Facebook</a></li>
+            <li class="z-twitter menu-item"><a target="_blank" href="http://twitter.com/kenhkelly">Twitter</a></li>
+            <li class="z-linkedin menu-item"><a target="_blank" href="http://www.linkedin.com/in/kenhkelly">LinkedIn</a></li>
+            <li class="hidden-sm z-googleplus menu-item"><a target="_blank" href="https://plus.google.com/+KenKellyH/about">Google+</a></li>
+            <li class="hidden-sm z-pinterest menu-item"><a target="_blank" href="http://www.pinterest.com/kenhkelly">Pinterest</a></li>
+            <li class="hidden-sm z-instagram menu-item"><a target="_blank" href="http://instagram.com/kenhkelly">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+  </nav>
+</div>

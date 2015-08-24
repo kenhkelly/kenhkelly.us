@@ -1,0 +1,193 @@
+[
+        {
+            "name": "Hoy! Marketing Solutions",
+            "date_range": "2014-Till Date",
+            "project": "Website Development, Business Strategy, SEO, Customer Service",
+            "role": "Founder, Lead Developer, Lead SEO",
+            "desc": [
+                "Founded Hoy! Marketing Solutions in 2014",
+                "Developed website using a custom theme with WordPress for the blogging backbone",
+                "Custom theme was designed to be extremely lean and functionality was created with custom JavaScript/jQuery and CSS3"
+            ],
+            "img_url": "/images/portfolio/hoy-desktop.png",
+            "href": "http://hoysmarts.com"
+        },
+        {
+            "name": "CrucialClicks.com",
+            "date_range": "2009-Till Date",
+            "project": "Website Development, Business Strategy, SEO, Customer Service",
+            "role": "Lead Developer, Lead SEO",
+            "desc": [
+                "Design and maintain the company’s website using HTML, CSS, PHP, JavaScript, jQuery, AJAX, WordPress, Google Maps, and Custom Contact Forms",
+                "Assisted with the creation of the branding of the company, logos, colors, website content",
+                "Trained personnel for customer service and project management",
+                "Helped with the Graphic Design and Motion Graphics"
+            ],
+            "img_url": "/images/portfolio/crucialclicks-desktop.png",
+            "href": "http://crucialclicks.com"
+        },
+        {
+            "name": "Sentry Self Storage Management",
+            "date_range": "2009-Till Date",
+            "project": "Multi-Site Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead Designer, Lead SEO, Lead Customer Service",
+            "desc": [
+                "Designed and maintained a custom dynamic template website for multiple domains, multiple physical locations",
+                "Front-end technologies: HTML, CSS, JavaScript, AJAX, jQuery",
+                "Back-end technologies: PHP, MySQL",
+                "Other technologies: Google Maps, Directions with Google Maps, Google Translate"
+            ],
+            "img_url": "/images/portfolio/sentrymanagement-desktop.png",
+            "href": "http://sentry-selfstorage.com"
+        },
+        {
+            "name": "Pogoda Companies",
+            "date_range": "2010-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO",
+            "desc": [
+                "Design and maintain the client’s website using a dynamic template",
+                "Website back-end is a custom built template engine using PHP, MySQL, AJAX",
+                "Website front-end is HTML, CSS, JavaScript, AJAX",
+                "Website blog is powered by WordPress with a custom theme",
+                "Manage the on-going SEO of the websites pages"
+            ],
+            "img_url": "/images/portfolio/storagespecialists-desktop.png",
+            "href": "http://selfstoragespecialists.com"
+        },
+        {
+            "name": "Hermin Kittle Properties",
+            "date_range": "2013-Till Date",
+            "project": "Multi-Site Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead Designer, Lead SEO, Lead Customer Service",
+            "desc": [
+                "Designed and maintained a custom website platform",
+                "Dynamic templates were used to show changes and uniqueness to the websites",
+                "Each website is powered by the same back-end code, and reusable front-end markup",
+                "Back-end technologies include: PHP, FatFreeFramework, AJAX, PHPMailer, REST API",
+                "Front-end technologies include: HTML/HTML5, CSS/CSS3, JavaScript, jQuery, AJAX",
+                "Other technologies: Google Maps, Google Translate, Content Delivery Network (CDN)"
+            ],
+            "img_url": "/images/portfolio/hkp-desktop.png",
+            "href": "http://myfavoriteapartment.com"
+        },
+        {
+            "name": "Devon Self Storage",
+            "date_range": "2011-2014",
+            "project": "Custom Website with Maintenance, SEO",
+            "role": "Lead Designer, Lead Developer, Lead SEO",
+            "desc": [
+                "Designed and maintained a custom website platform",
+                "Main website was powered with PHP, MySQL, AJAX, HTML, CSS, JavaScript, jQuery",
+                "Blog was powered with WordPress and a custom theme to tie into the existing main website"
+            ],
+            "img_url": "/images/portfolio/devon-ss.jpg",
+            "href": "http://devonselfstorage.com"
+        },
+        {
+            "name": "Storage Pros Self Storage",
+            "date_range": "2010-2013",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and maintained a custom dynamic template website",
+                "Back-end powered by PHP, MySQL, AJAX",
+                "Front-end utilized HTML, CSS, JavaScript, AJAX, LESS CSS Preprocessor, jQuery",
+                "Google Maps integration to highlight single locations and multiple locations",
+                "Directions service was integrated using Google Maps to provide on-page directions and mapping to location."
+            ],
+            "img_url": "/images/portfolio/storagepros.jpg",
+            "href": "http://thestoragepros.com"
+        },
+        {
+            "name": "Sentry Self Storage Management",
+            "date_range": "2007-2009",
+            "project": "Website and Intranet Development and Maintenance",
+            "role": "Lead Developer",
+            "desc": [
+                "Design and maintain the company’s public-facing website using HTML, CSS, PHP, JavaScript, LESS CSS, jQuery, Bootstrap",
+                "Design and maintain the company’s private intranet using HTML, CSS, PHP, JavaScript, AJAX",
+                "Managed company’s database of locations and employees"
+            ],
+            "img_url": "/images/portfolio/sentrymanagement-desktop.png",
+            "href": "http://sentry-selfstorage.com"
+        },
+        {
+            "name": "Cedar Storage",
+            "date_range": "2011-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/cedar-desktop.png",
+            "href": "http://cedarstoragesoutheast.com"
+        },
+        {
+            "name": "Three Mountain Storage",
+            "date_range": "2011-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/threemountain-desktop.png",
+            "href": "http://threemountainstorage.com"
+        },
+        {
+            "name": "Sentry Self Storage",
+            "date_range": "2009-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/sentryselfstorage-desktop.png",
+            "href": "http://sentryselfstorage.net"
+        },
+        {
+            "name": "Copper Chase Apartments",
+            "date_range": "2013-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/copperchase-desktop.png",
+            "href": ""
+        },
+        {
+            "name": "Broadstone Pointe Apartments",
+            "date_range": "2013-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/broadstone-desktop.png",
+            "href": ""
+        },
+        {
+            "name": "Brookhaven of County Line",
+            "date_range": "2013-Till Date",
+            "project": "Website Development and Maintenance, SEO",
+            "role": "Lead Developer, Lead SEO, Lead Designer",
+            "desc": [
+                "Designed and developed website around a custom built CMS",
+                "Back end technologies: PHP, MySQL, LAMP, AJAX",
+                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
+            ],
+            "img_url": "/images/portfolio/brookhaven-desktop.png",
+            "href": ""
+        }
+    ]

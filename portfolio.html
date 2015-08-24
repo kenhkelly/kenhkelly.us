@@ -1,0 +1,54 @@
+---
+layout: default
+permalink: /portfolio/
+title: Ken Kelly's Portfolio
+class: Portfolio
+active: portfolio
+---
+<div class="page Portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>My Portfolio</h2>
+            </div>
+        </div>
+
+        <div class="row portfolio-items">
+            {% for project in site.data.portfolio %}
+                <div class="col-sm-4">
+                    <div class="thumbnail" data-toggle="modal" data-target="#portfolio_modal" data-title="{{ project.name }}" data-desc="{{ project.desc | implode }}" data-img="{{ project.img_url }}" data-role="{{ project.role }}" data-project="{{ project.project }}" data-date_range="{{ project.date_range }}">
+                        <img src="{{ project.img_url }}" alt="">
+                        {{ project.name }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        
+    </div>
+</div>
+
+<div class="modal fade" id="portfolio_modal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body container-fluid">
+        <div class="col-sm-6">
+            <p class="name"></p>
+            <p class="date_range"></p>
+            <p class="project"></p>
+            <p class="role"></p>
+            <ul class="desc"></ul>
+        </div>
+        <div class="col-sm-6">
+            <p class="img"><img src=""></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-green" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
