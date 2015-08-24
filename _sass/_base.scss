@@ -480,6 +480,11 @@ body.home {
     }
 }
 
+.Thanks {
+    .jumbotron {
+        background: transparent;
+    }
+}
 
 
 @media (max-width: $screen-xs-max) {
