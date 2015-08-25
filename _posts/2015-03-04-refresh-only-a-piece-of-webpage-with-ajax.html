@@ -10,20 +10,29 @@ comments: false
 <p>I was working on a new project when I had come up with a certain scenario. What I needed to do was refresh a piece of the webpage after an action was taken. Using jQuery, it&rsquo;s normally pretty straight forward, but it wasn&rsquo;t working as exactly the way I needed it.</p>
 
 <p>Here is what you would normally use when you use AJAX to get a piece of a webpage.</p>
-<pre rel="jquery">$('.container').load('page.html .container');
+<pre>
+  <code class="language-javascript">
+$('.container').load('page.html .container');
+  </code>
 </pre>
 <p>This works great in most instances, but because I was using Bootstrap, and the container I needed was also using the grid system, it became all wonky. What I discovered is that you can go deeper with your selectors. This is what I changed it too.</p>
-<pre>$('.container').load('page.html .container &gt; *');
+<pre>
+  <code class="language-javascript">
+$('.container').load('page.html .container &gt; *');
+  </code>
 </pre>
 <p>With this new snippet, I can load all on my content without doubling up the .container. You can see a side-by-side comparison on <a href="http://codepen.io/kenhkelly/pen/WbKKXM" target="_blank">CodePen</a>. Who really wants container inception, anyways.</p>
 
 <p>I actually took it a step further and made a little function of it that you could easily add into your project.</p>
-<pre>function refreshPagePiece( url, container, callback ) {
-   $(container).load( url +' '+ container +' &gt; *', function() {
-      if ( callback )
-         callback();
-   } );
+<pre>
+  <code class="language-javascript">
+function refreshPagePiece( url, container, callback ) {
+ $(container).load( url +' '+ container +' &gt; *', function() {
+    if ( callback )
+       callback();
+ } );
 }
+  </code>
 </pre>
 <p>This is a quick and simple way to grab a fresh piece of content from your website without reloading the whole page.</p>
 
