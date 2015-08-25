@@ -17,8 +17,13 @@ layout: default
             <?= the_author_posts_link() ?></a>
             <span class="date">{{ page.date | date: "%B %-d %Y" }}</span>
         </div>
-            
-        {{ content }}
+        
+        <div class="post_content">
+            {{ content }}
+        </div>
+
+        {% include signup_widget.html %}
+        <div class="clearfix"></div>
 
         <div class="tags">
             {% for tag in page.tags %}

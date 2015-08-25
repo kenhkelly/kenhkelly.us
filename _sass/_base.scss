@@ -400,6 +400,14 @@ body.home {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    .post_content {
+        float: left;
+        width: calc(100% - 350px);
+        padding-right: 15px;
+    }
+    .signup_widget {
+        float: right;
+    }
     .meta {
         text-align: center;
         font-size: smaller;
@@ -484,6 +492,14 @@ body.home {
     .jumbotron {
         background: transparent;
     }
+}
+
+.signup_widget {
+    width: 350px;
+    padding: 15px;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #ededed;
 }
 
 
