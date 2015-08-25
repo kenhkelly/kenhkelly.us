@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog Migration To Jekyll - Part 1"
-date:   2015-08-24 19:30:00
+date:   2015-08-25 07:05:00
 # image: http://i.imgur.com/cfajk6r.jpg
 tags: [news, blog, ruby, jekyll, wordpress]
 summary: "Hello everyone. During my down time over the past few <s>weeks</s><ins>months</ins>, I have been slowly migrating the blog over to Jekyll, a static website platform. One of my major reasons for doing this was I didn't have the time for constant Wordpress upkeep. The other major reason was because I started to learn Ruby, and I wanted to attempt to put it to use."
@@ -16,6 +16,18 @@ comments: true
 
 <p>I find that the website is much easier to manage and I'm even using it with Git and hooks for deployment.</p>
 
-<p>Go on and check <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and my <a href="https://github.com/kenhkelly/kenhkelly.us" target="_blank">repo</a> out and stay tuned for at least two more parts going over plugins, oddities, and tips I experienced during my site mirgation and launch.</p>
+<p>It's very simple to get started. There are a few prerequisites that need to be installed first (if not already): Ruby, RubyGems, and a Javascript runtime like NodeJS. From their <a href="http://jekyllrb.com/docs/quickstart/" target="_blank">quick-start guide</a>, to get simply started: </p>
+
+<pre>
+~ $ gem install jekyll
+~ $ jekyll new myblog
+~ $ cd myblog
+~/myblog $ jekyll serve
+# => Now browse to http://localhost:4000
+</pre>
+
+<p>You can also start a new blog in the current directory with <code>jekyll new .</code>.</p>
+
+<p>You are now ready to get in there and start tinkering with your new static website. Go on and check out <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and my <a href="https://github.com/kenhkelly/kenhkelly.us" target="_blank">repo</a> and stay tuned for at least two more parts going over plugins, oddities, and tips I experienced during my site mirgation and launch.</p>
 
 <p>Until next time, <br>Ken</p>
