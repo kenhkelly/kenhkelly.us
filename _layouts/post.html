@@ -14,7 +14,6 @@ layout: default
 
         <h1 class="text-center">{{ page.title }}</h1>
         <div class="meta">
-            <?= the_author_posts_link() ?></a>
             <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
         </div>
         
@@ -22,7 +21,7 @@ layout: default
             {{ content }}
         </div>
 
-        <!-- {% include signup_widget.html %} -->
+        {% comment %}{% include signup_widget.html %}{% endcomment %}
         <div class="clearfix"></div>
 
         <div class="tags">
