@@ -41,7 +41,11 @@ $('#portfolio_modal').on( 'show.bs.modal', function(e) {
     var modal = $(this);
 
     modal.find('.modal-title').text( div.data('title') );
-    modal.find('.name').text( 'Client: ' + div.data('title') );
+    if (typeof div.data('href') !== undefined && div.data('href').length > 0) {
+        modal.find('.name').html( 'Client: <a href="'+ div.data('href') +'" target="_blank">'+ div.data('title') +'</a>' );
+    } else {
+        modal.find('.name').text( 'Client: ' + div.data('title') );
+    }
     modal.find('.date_range').text( div.data('date_range') );
     modal.find('.project').text( 'Project: ' + div.data('project') );
     modal.find('.role').text( 'Role: ' + div.data('role') );

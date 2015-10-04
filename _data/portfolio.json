@@ -27,6 +27,20 @@
             "href": "http://crucialclicks.com"
         },
         {
+            "name": "Tekk Supply",
+            "date_range": "2015",
+            "project": "Website designed and developed for a construction supply company",
+            "role": "Sole Developer, Designer, &amp; SEO",
+            "desc": [
+                "Designed website based on customer specifications and sketches",
+                "Front-end technologies: HTML, CSS, JavaScript, jQuery",
+                "Back-end technologies: PHP",
+                "Other technologies: Google Maps"
+            ],
+            "img_url": "/images/portfolio/tekk-supply.jpg",
+            "href": "http://tekksupply.com"
+        },
+        {
             "name": "Sentry Self Storage Management",
             "date_range": "2009-Till Date",
             "project": "Multi-Site Website Development and Maintenance, SEO",

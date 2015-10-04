@@ -17,7 +17,7 @@ excerpt: Ken has worked on many different type of projects with a focus on the s
         <div class="row portfolio-items">
             {% for project in site.data.portfolio %}
                 <div class="col-sm-4">
-                    <div class="thumbnail" data-toggle="modal" data-target="#portfolio_modal" data-title="{{ project.name }}" data-desc="{{ project.desc | implode }}" data-img="{{ project.img_url }}" data-role="{{ project.role }}" data-project="{{ project.project }}" data-date_range="{{ project.date_range }}">
+                    <div class="thumbnail" data-toggle="modal" data-target="#portfolio_modal" data-title="{{ project.name }}" data-desc="{{ project.desc | implode }}" data-img="{{ project.img_url }}" data-role="{{ project.role }}" data-project="{{ project.project }}" data-date_range="{{ project.date_range }}" data-href="{{ project.href }}">
                         <img src="{{ project.img_url }}" alt="">
                         {{ project.name }}
                     </div>
