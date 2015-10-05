@@ -25,6 +25,34 @@
             "href": "http://hoysmarts.com"
         },
         {
+            "name": "Joni Grooming (canceled)",
+            "date_range": "2015",
+            "project": "Website designed and developed for a pet grooming business",
+            "role": "Sole Developer, Designer, &amp; SEO",
+            "desc": [
+                "Designed website based on customer specifications and sketches",
+                "Front-end technologies: HTML, CSS, JavaScript, jQuery",
+                "Back-end technologies: Jekyll, Ruby",
+                "Other technologies: Google Maps"
+            ],
+            "img_url": "/images/portfolio/jonigrooming-desktop.jpg",
+            "href": ""
+        },
+        {
+            "name": "Tekk Supply",
+            "date_range": "2014-2015",
+            "project": "Website designed and developed for a construction supply company",
+            "role": "Sole Developer, Designer, &amp; SEO",
+            "desc": [
+                "Designed website based on customer specifications and sketches",
+                "Front-end technologies: HTML, CSS, JavaScript, jQuery",
+                "Back-end technologies: PHP",
+                "Other technologies: Google Maps"
+            ],
+            "img_url": "/images/portfolio/tekk-supply.jpg",
+            "href": "http://tekksupply.com"
+        },
+        {
             "name": "CrucialClicks.com",
             "date_range": "2008-2015",
             "project": "Website Development, Business Strategy, SEO, Customer Service",
@@ -37,20 +65,6 @@
             ],
             "img_url": "/images/portfolio/crucialclicks-desktop.png",
             "href": "http://crucialclicks.com"
-        },
-        {
-            "name": "Tekk Supply",
-            "date_range": "2015",
-            "project": "Website designed and developed for a construction supply company",
-            "role": "Sole Developer, Designer, &amp; SEO",
-            "desc": [
-                "Designed website based on customer specifications and sketches",
-                "Front-end technologies: HTML, CSS, JavaScript, jQuery",
-                "Back-end technologies: PHP",
-                "Other technologies: Google Maps"
-            ],
-            "img_url": "/images/portfolio/tekk-supply.jpg",
-            "href": "http://tekksupply.com"
         },
         {
             "name": "Sentry Self Storage Management",
