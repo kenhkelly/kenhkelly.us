@@ -1,5 +1,17 @@
 [
         {
+            "name": "Ken Kelly - Web Developer",
+            "date_range": "2014-Till Date",
+            "project": "Website Design, Website Development, SEO",
+            "role": "Founder, Lead Developer, Lead Designer, Lead SEO",
+            "desc": [
+                "Create my portfolio site from scratch",
+                "HTML, SASS/CSS, Javascript, jQuery, Jekyll, Ruby",
+                "Custom design to be extremely lean and functionality was created with custom JavaScript/jQuery and CSS3"
+            ],
+            "img_url": "/images/portfolio/kenhkelly-desktop.jpg",
+            "href": "http://kenhkelly.us"
+        },{
             "name": "Hoy! Marketing Solutions",
             "date_range": "2014-Till Date",
             "project": "Website Development, Business Strategy, SEO, Customer Service",
