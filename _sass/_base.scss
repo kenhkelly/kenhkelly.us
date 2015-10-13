@@ -459,6 +459,23 @@ body.home {
         float: right;
     }
 }
+.Tags {
+    @media (min-width: $screen-lg-min) {
+        [class*="col-"]:nth-child(even) {
+            background: #eee;
+        }
+    }
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        [class*="col-"]:nth-child(3n+2) {
+            background: #eee;
+        }
+    }
+    @media (max-width: $screen-xs-max) {
+        [class*="col-"] {
+            background: transparent;
+        }
+    }
+}
 
 .Contact {
     [class*="social"] {
