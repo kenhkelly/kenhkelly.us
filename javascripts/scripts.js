@@ -16,6 +16,8 @@ $('[class*="z-"]').addClass( function() {
         $('a', el).addClass('zocial zocial-instagram');
     if (el.hasClass('z-github'))
         $('a', el).addClass('zocial zocial-github');
+    if (el.hasClass('z-rss'))
+        $('a', el).addClass('zocial zocial-rss');
     $('a', el).text('');
 } );
 

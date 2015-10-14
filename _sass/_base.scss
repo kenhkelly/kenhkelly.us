@@ -32,6 +32,7 @@ $green-grad: linear-gradient( rgba(135, 200, 68, .4), rgba(135, 200, 68, .4) );
 .zocial-instagram, .zocial-instagram:hover, .social-icon-instagram { background: #517fa4 !important; }
 .zocial-pinterest, .zocial-pinterest:hover, .social-icon-pinterest { background: #cb2027 !important; }
 .zocial-github, .zocial-github:hover, .social-icon-github { background: #323131 !important; }
+.zocial-rss, .zocial-rss:hover, .social-icon-rss { background: #ff6600 !important; }
 .social-icon-vine  { background: #00bf8f }
 .social-icon-snapchat  { background: #fffc00 }
 .social-icon-quora { background: #a82400 }
@@ -40,6 +41,55 @@ $green-grad: linear-gradient( rgba(135, 200, 68, .4), rgba(135, 200, 68, .4) );
 .social-icon-vk { background: #45668e }
 .social-icon-vimeo { background: #aad450 }
 .social-icon-foursquare { background: #0072b1 }
+
+.m-t-0 {
+    margin-top: 0px !important;
+}
+.m-r-0 {
+    margin-right: 0px !important;
+}
+.m-b-0 {
+    margin-bottom: 0px !important;
+}
+.m-l-0 {
+    margin-left: 0px !important;
+}
+.m-t-15 {
+    margin-top: 15px !important;
+}
+.m-r-15 {
+    margin-right: 15px !important;
+}
+.m-b-15 {
+    margin-bottom: 15px !important;
+}
+.m-l-15 {
+    margin-left: 15px !important;
+}
+.p-t-0 {
+    padding-top: 0px !important;
+}
+.p-r-0 {
+    padding-right: 0px !important;
+}
+.p-b-0 {
+    padding-bottom: 0px !important;
+}
+.p-l-0 {
+    padding-left: 0px !important;
+}
+.p-t-15 {
+    padding-top: 15px !important;
+}
+.p-r-15 {
+    padding-right: 15px !important;
+}
+.p-b-15 {
+    padding-bottom: 15px !important;
+}
+.p-l-15 {
+    padding-left: 15px !important;
+}
 
 html, html body {
     height: 100%;
@@ -355,6 +405,22 @@ body.home {
 }
 
 .Blog {
+    .subscribe {
+        margin-top: 35px;
+        a {
+            color: white;
+            background: #ff6600;
+            padding: 9px;
+            .zocial-rss {
+                background: transparent !important;
+            }
+            &:hover {
+                text-decoration: none;
+                color: #ff6600;
+                background: transparent;
+            }
+        }
+    }
     .article {
         margin: 25px 0;
         background: #fff;
