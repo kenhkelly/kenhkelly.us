@@ -25,12 +25,6 @@ layout: default
         {% comment %}{% include signup_widget.html %}{% endcomment %}
         <div class="clearfix"></div>
 
-        <div class="tags">
-            {% for tag in page.tags %}
-                <a href="/tag/{{ tag | replace: ' ', '-' }}">#{{ tag }}</a>
-            {% endfor %}
-        </div>
-
         <div class="comments">
             {% if page.comments == true %}
             <div id="disqus_thread"></div>
