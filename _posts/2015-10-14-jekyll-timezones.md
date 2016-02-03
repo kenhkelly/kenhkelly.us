@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Working with timezones in Jekyll"
+title:  "Working With Timezones In Jekyll"
 date:   2015-10-14 08:01:00 -04:00
 # image: http://i.imgur.com/cfajk6r.jpg
 tags: [jekyll, blog, tips]
