@@ -25,6 +25,20 @@
             "href": "http://hoysmarts.com"
         },
         {
+            "name": "Impact It",
+            "date_range": "2016",
+            "project": "Website designed and developed for a IT infrastructure business",
+            "role": "Sole Developer, Designer, &amp; SEO",
+            "desc": [
+                "Designed website based on customer specifications and sketches",
+                "Front-end technologies: HTML, CSS, JavaScript, jQuery",
+                "Back-end technologies: Jekyll, Ruby",
+                "Other technologies: Google Maps"
+            ],
+            "img_url": "/images/portfolio/impactit-desktop.jpg",
+            "href": "http://impact-it.net"
+        },
+        {
             "name": "Joni Grooming (canceled)",
             "date_range": "2015",
             "project": "Website designed and developed for a pet grooming business",
