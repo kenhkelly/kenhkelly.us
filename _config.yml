@@ -16,4 +16,4 @@ timezone: America/New_York
 markdown: kramdown
 
 # Outputting
-permalink:  /:year/:month/:title
+permalink:  /:year/:month/:title/
