@@ -24,7 +24,6 @@ $('[class*="z-"]').addClass( function() {
 $('.menu > li > .sub-menu').each( function() {
     var el = $(this);
     el.parent().addClass('dropdown');
-    // $('.dropdown > a' ).addClass('dropdown-toggle').attr('data-toggle', 'dropdown').attr('aria-expanded', false);
     el.addClass('dropdown-menu');
 } );
 
@@ -70,4 +69,4 @@ $('#portfolio_modal').on( 'show.bs.modal', function(e) {
 
 (function($) {
     if (console) console.log('If you\'re reading this, let\'s be friends. Tweet me - @kenhkelly');
-}) (jQuery);
+})(jQuery);
