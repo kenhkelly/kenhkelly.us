@@ -474,6 +474,9 @@ body.home {
     }
 }
 .singlePostPage {
+    .post_heading {
+        text-decoration: none;
+    }
     .container {
         /*background: #fff;*/
         padding-top: 25px;
@@ -503,6 +506,12 @@ body.home {
     }
     .comments {
         margin-top: 15px;
+    }
+    .post_sidebar {
+        a {
+            margin: 5px 0;
+            display: inline-block;
+        }
     }
 }
 .Blog, .singlePostPage {
