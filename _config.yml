@@ -11,6 +11,7 @@ github_username:  kenhkelly
 # paginate_path: "/blog/page:num/"
 exclude: [README.md, deploy.sh]
 timezone: America/New_York
+analytics: false
 
 # Build settings
 markdown: kramdown
