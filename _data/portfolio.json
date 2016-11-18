@@ -25,6 +25,20 @@
             "href": "http://hoysmarts.com"
         },
         {
+            "name": "Wishes On Leashes",
+            "date_range": "2016",
+            "project": "Website designed and developed for a Pet Walking / Sitting business",
+            "role": "Sole Developer, Designer, &amp; Developer",
+            "desc": [
+                "Designed website based on customer specifications and sketches",
+                "Front-end technologies: HTML, CSS, SemanticUI",
+                "Back-end technologies: PHP, FatFreeFramework",
+                "Other technologies: SQLite, PHPMailer"
+            ],
+            "img_url": "/images/portfolio/wishesonleashes-desktop.jpg",
+            "href": "http://wishesonleashes.com"
+        },
+        {
             "name": "Impact It",
             "date_range": "2016",
             "project": "Website designed and developed for a IT infrastructure business",

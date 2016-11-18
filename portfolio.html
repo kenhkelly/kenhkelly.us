@@ -17,7 +17,7 @@ excerpt: Ken has worked on many different type of projects with a focus on the s
                 <li><strong>Languages</strong>: PHP, Go, Ruby, HTML, HTML5, JavaScript, CSS, SQL, XML</li>
                 <li><strong>Web Technologies</strong>: CSS, AJAX, jQuery, Bootstrap 2 &amp; 3, Wordpress, Wordpress Plugins &amp; Themes, XML, REST, JSON, Responsive Web Design, SEO</li>
                 <li><strong>Marketing</strong>: Search Engine Optimization, Social Media Management, Social Media Optimization, Local Search Optimization, Pay-Per-Click Marketing, Email</li>
-                <li><strong>Database</strong>: MySQL, MariaDB, MongoDB</li>
+                <li><strong>Database</strong>: MySQL, MariaDB, MongoDB, Redis, ElasticSearch</li>
                 <li><strong>Mobile Technologies</strong>: PhoneGap/Cordova, Bootstrap, jQuery Mobile</li>
                 <li><strong>Environment</strong>: Windows NT/XP/Vista, Windows 7, Windows 8/8.1, Unix, Linux, Mac OS X</li>
                 <li><strong>Server</strong>: LAMP, WAMP, Apache, Amazon EC2, Amazon S3, Amazon AWS, SSH, SFTP, Redis</li>
@@ -66,7 +66,7 @@ excerpt: Ken has worked on many different type of projects with a focus on the s
                 <div class="col-sm-4">
                     <div class="thumbnail" data-toggle="modal" data-target="#portfolio_modal" data-title="{{ project.name }}" data-desc="{{ project.desc | implode }}" data-img="{{ project.img_url }}" data-role="{{ project.role }}" data-project="{{ project.project }}" data-date_range="{{ project.date_range }}" data-href="{{ project.href }}">
                         <div class="img-holder">
-                            <img src="{{ project.img_url }}" alt="">
+                            <img src="{{ project.img_url }}" alt="{{ project.name }}">
                         </div>
                         {{ project.name }}<br>
                         {{ project.date_range }}
