@@ -502,6 +502,12 @@ body.home {
             text-transform: uppercase;
             /*font-size: smaller;*/
             /*float: right;*/
+            &.small {
+                font-size: smaller;
+            }
+            span {
+                text-transform: capitalize;
+            }
         }
     }
     .comments {
