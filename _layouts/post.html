@@ -15,6 +15,10 @@ layout: default
             <a class="post_heading" href="{{ post.url }}"><h1 class="text-center">{{ page.title }}</h1></a>
             <div class="meta">
                 <span class="date" title="{{ page.date }}">{{ page.date | date: "%B %-d, %Y" }}</span>
+                {% if page.edited %}
+                <br>
+                <span class="date small" title="{{ page.edited }}"><span>Edited:</span> {{ page.edited | date: "%B %-d, %Y" }}</span>
+                {% endif %}
             </div>
             
             <div class="post_content">
