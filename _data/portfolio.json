@@ -205,57 +205,5 @@
             ],
             "img_url": "/images/portfolio/threemountain-desktop.png",
             "href": "http://threemountainstorage.com"
-        },
-        {
-            "name": "Sentry Self Storage",
-            "date_range": "2009-2015",
-            "project": "Website Development and Maintenance, SEO",
-            "role": "Lead Developer, Lead SEO, Lead Designer",
-            "desc": [
-                "Designed and developed website around a custom built CMS",
-                "Back end technologies: PHP, MySQL, LAMP, AJAX",
-                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
-            ],
-            "img_url": "/images/portfolio/sentryselfstorage-desktop.png",
-            "href": "http://sentryselfstorage.net"
-        },
-        {
-            "name": "Copper Chase Apartments",
-            "date_range": "2013-2015",
-            "project": "Website Development and Maintenance, SEO",
-            "role": "Lead Developer, Lead SEO, Lead Designer",
-            "desc": [
-                "Designed and developed website around a custom built CMS",
-                "Back end technologies: PHP, MySQL, LAMP, AJAX",
-                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
-            ],
-            "img_url": "/images/portfolio/copperchase-desktop.png",
-            "href": ""
-        },
-        {
-            "name": "Broadstone Pointe Apartments",
-            "date_range": "2013-2015",
-            "project": "Website Development and Maintenance, SEO",
-            "role": "Lead Developer, Lead SEO, Lead Designer",
-            "desc": [
-                "Designed and developed website around a custom built CMS",
-                "Back end technologies: PHP, MySQL, LAMP, AJAX",
-                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
-            ],
-            "img_url": "/images/portfolio/broadstone-desktop.png",
-            "href": ""
-        },
-        {
-            "name": "Brookhaven of County Line",
-            "date_range": "2013-2015",
-            "project": "Website Development and Maintenance, SEO",
-            "role": "Lead Developer, Lead SEO, Lead Designer",
-            "desc": [
-                "Designed and developed website around a custom built CMS",
-                "Back end technologies: PHP, MySQL, LAMP, AJAX",
-                "Front end technologies: HTML/5, CSS3, JavaScript, jQuery"
-            ],
-            "img_url": "/images/portfolio/brookhaven-desktop.png",
-            "href": ""
         }
     ]
