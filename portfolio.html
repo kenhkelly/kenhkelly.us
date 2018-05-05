@@ -7,101 +7,169 @@ active: portfolio
 excerpt: Ken has worked on many different type of projects with a focus on the self storage website niche.
 ---
 <div class="page Portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Skills</h2>
-            </div>
-            <div class="row skills col-xs-12">
-                <ul>
-                <li><strong>Languages</strong>: PHP (5.0.0 - 5.6.30, 7.0.0 - 7.1.6), Go (1.4 - 1.8+), Java (8, 9), Swift (2, 3), Objective-C, Ruby, C++, HTML (4, 5), JavaScript (1.6+), CSS (2, 3), SQL, XML</li>
-                <li><strong>Web Technologies</strong>: CSS 2/3, AJAX, jQuery, Bootstrap 2 &amp; 3, Wordpress 3.0 - 4.8, Wordpress Plugins &amp; Themes, CakePHP, FatFreeFramework, XML, REST, SOAP, JSON, Responsive Web Design, SEO, Hystrix, Jest</li>
-                <li><strong>Mobile Technologies</strong>: iOS Development, Android Development, Swift 2 &amp; 3, Objective-C, Java, React Native, PhoneGap/Cordova, Bootstrap, jQuery Mobile</li>
-                <li><strong>Third Party Services</strong>: Twilio, AWS (EC2, SES, S3), Google (Maps, Analytics, Docs, Adwords), Mapquest, BazaarVoice, RichRelevance, BuddyBuild, Jasper (IoT M2M), Verizon (IoT M2M) </li>
-                <li><strong>Marketing</strong>: Search Engine Optimization, Social Media Management, Social Media Optimization, Local Search Optimization, Pay-Per-Click Marketing, Email</li>
-                <li><strong>Database</strong>: MySQL, MariaDB, PostgreSQL, MongoDB, Redis, Elasticsearch</li>
-                <li><strong>Environment</strong>: Windows NT/XP/Vista, Windows 7, Windows 8/8.1, Windows 10, Windows Server (2003, 2008), Unix, Linux (Red Hat Linux, Red Hat Enterprise Linux, CentOS, Ubuntu, Debian, Mandrake/Mandriva), Raspberry Pi, Mac OS X (10.5 - 10.13)</li>
-                <li><strong>Servers &amp; Server Configurations</strong>: LAMP, WAMP, Apache, Nginx, Amazon EC2, Amazon S3, Amazon AWS, SSH, SFTP, Redis, DigitalOcean, Docker, Virtualization, Proxmox, DNS, Networking, Online Backups, StatsD, Grafana, Sendmail, Zipkin, Graylog, Jenkins, Memcache</li>
-                <li><strong>Security</strong>: PCI Compliance, SSH Keys, Firewalls, SSL/TLS Encryption, Service Auditing, SSL Attack Mitigation (e.g. BEAST, POODLE)</li>
-                <li><strong>Networking</strong>: Internet of Things (IoT), RFID, DNS</li>
-                <li><strong>IDE</strong>: Dreamweaver MX/MX2004, Dreamweaver 8.0, Dreamweaver CS3, CS4, CS5, CS6, SublimeText, IntelliJ IDEA, WebStorm, Gogland, PHPStorm, LiteIDE, NetBeans, Eclipse</li>
-                <li><strong>Version Control</strong>: GIT (CLI), GIT (GUI), Mercurial (CLI), Mercurial (GUI)</li>
-                <li><strong>Utilities</strong>: MS-Office Suite, Mac iWork Suite, LibreOffice</li>
-                <li><strong>Imaging Utilities</strong>: Adobe Photoshop, Adobe Creative Suite CS3, CS4, CS5, CS6, Adobe After Effects, Adobe Illustrator, Adobe Fireworks, QuickTime</li>
-                <li><strong>Project Management Tools</strong>: Jira, InVision, BaseCamp, Agile SCRUM, Agile KANBAN</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Trainings</h2>
-            </div>
-            <div class="row skills col-xs-12">
-                <ul>
-                    <li>3 days workshop on SEO at Search Engine Academy</li>
-                    <li>Google I/O 2010 &amp; 2014</li>
-                    <li>Search Marketing Expo - East 2012, 2013, 2014</li>
-                    <li>Social Fresh East Conference 2014</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Awards</h2>
-            </div>
-            <div class="row skills col-xs-12">
-                <ul>
-                    <li>Google Engage All-Star 2013</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Projects</h2>
-            </div>
-        </div>
-
-        <div class="row portfolio-items">
-            {% for project in site.data.portfolio %}
-                {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
-                <div class="col-sm-4">
-                    <div class="thumbnail" data-toggle="modal" data-target="#portfolio_modal" data-title="{{ project.name }}" data-desc="{{ project.desc | implode }}" data-img="{{ project.img_url }}" data-role="{{ project.role }}" data-project="{{ project.project }}" data-date_range="{{ project.date_range }}" data-href="{{ project.href }}">
-                        <div class="img-holder">
-                            <img src="{{ project.img_url }}" alt="{{ project.name }}">
-                        </div>
-                        {{ project.name }}<br>
-                        {{ project.date_range }}
-                    </div>
-                </div>
-                {% if modulo == "0" %}
-                <div class="clearfix hiddex-xs"></div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Skills &amp; Technologies</h2>
+      </div>
+      <div class=" skills col-xs-12">
+        <p>
+          <strong>Top Day-to-Day technologies</strong>:
+          React, React Native, Open Components, Micro Front Ends,
+          Microservices, Javascript, Go, Java, Swift, Objective-C, HTML/CSS, Kubernetes, Docker, Jenkins, Amazon Web
+          Services, Google Cloud Platform, Heroku, Digital Ocean
+        </p>
+        <br>
+        <p>
+          <strong>Languages</strong>:
+          PHP (5.0.0 - 5.6.30, 7.0.0 - 7.1.6), Go (1.4 - 1.8+), Java (8, 9), Swift (2, 3),
+          Objective-C, Ruby, C++, HTML (4, 5), JavaScript (1.6+), CSS (2, 3), SQL, XML
+        </p>
+        <p>
+          <strong>Web Technologies</strong>:
+          React, Open Components, Responsive Web Design, SEO, Hystrix, Jest, CSS
+          2/3, AJAX, jQuery, Bootstrap 2 & 3, Wordpress 3.0 - Latest, Wordpress Plugins & Themes, CakePHP,
+          FatFreeFramework, XML, REST, SOAP, JSON
+        </p>
+        <p>
+          <strong>Mobile Technologies</strong>:
+          iOS Development, Android Development, Swift 2 &amp; 3, Objective-C,
+          Java, React Native, PhoneGap/Cordova, Bootstrap, jQuery Mobile
+        </p>
+        <p>
+          <strong>Third Party Services</strong>:
+          Twilio, AWS (EC2, SES, S3), Google (Maps, Analytics, Docs, Adwords),
+          Mapquest, BazaarVoice, RichRelevance, BuddyBuild, Jasper (IoT M2M), Verizon (IoT M2M)
+        </p>
+        <p>
+          <strong>Marketing</strong>:
+          Search Engine Optimization, Social Media Management, Social Media Optimization,
+          Local Search Optimization, Pay-Per-Click Marketing, Email
+        </p>
+        <p>
+          <strong>Database</strong>:
+          MySQL, MariaDB, PostgreSQL, MongoDB, Redis, Elasticsearch
+        </p>
+        <p>
+          <strong>Environment</strong>:
+          Windows NT/XP/Vista, Windows 7, Windows 8/8.1, Windows 10, Windows Server
+          (2003, 2008), Unix, Linux (Red Hat Linux, Red Hat Enterprise Linux, CentOS, Ubuntu, Debian,
+          Mandrake/Mandriva), Raspberry Pi, Mac OS X (10.5 - 10.13)
+        </p>
+        <p>
+          <strong>Servers &amp; Server Configurations</strong>:
+          LAMP, WAMP, Apache, Nginx, Amazon EC2, Amazon S3,
+          Amazon AWS, SSH, SFTP, Redis, DigitalOcean, Docker, Virtualization, Proxmox, DNS, Networking, Online Backups,
+          StatsD, Grafana, Sendmail, Zipkin, Graylog, Jenkins, Memcache
+        </p>
+        <p>
+          <strong>Security</strong>:
+          PCI Compliance, SSH Keys, Firewalls, SSL/TLS Encryption, Service Auditing, SSL
+          Attack Mitigation (e.g. BEAST, POODLE)
+        </p>
+        <p>
+          <strong>Networking</strong>:
+          Internet of Things (IoT), RFID, DNS
+        </p>
+        <p>
+          <strong>IDE</strong>:
+          IntelliJ IDEA, XCode, WebStorm, Goland, Eclipse
+        </p>
+        <p>
+          <strong>Version Control</strong>:
+          GIT (CLI), GIT (GUI), Mercurial (CLI), Mercurial (GUI)
+        </p>
+        <p>
+          <strong>Utilities</strong>:
+          MS-Office Suite, Mac iWork Suite, LibreOffice
+        </p>
+        <p>
+          <strong>Imaging Utilities</strong>:
+          Adobe Photoshop, Adobe Creative Suite CS6, Adobe After Effects, Adobe Illustrator, Adobe Fireworks, QuickTime
+        </p>
+        <p>
+          <strong>Project Management Tools</strong>:
+          Jira, InVision, BaseCamp, Agile SCRUM, Agile KANBAN</p>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Trainings</h2>
+      </div>
+      <div class=" skills col-xs-12">
+        <p>3 days workshop on SEO at Search Engine Academy</p>
+        <p>Google I/O 2010 &amp; 2014</p>
+        <p>Search Marketing Expo - East 2012, 2013, 2014</p>
+        <p>Social Fresh East Conference 2014</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Awards</h2>
+      </div>
+      <div class=" skills col-xs-12">
+        <p>Google Engage All-Star 2013</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Projects</h2>
+      </div>
+    </div>
+
+    <div class="row portfolio-items">
+      {% for project in site.data.portfolio %}
+      {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+      <div class="col-sm-4">
+        <div
+          class="thumbnail"
+          data-toggle="modal"
+          data-target="#portfolio_modal"
+          data-title="{{ project.name }}"
+          data-desc="{{ project.desc | implode }}"
+          data-img="{{ project.img_url }}"
+          data-role="{{ project.role }}"
+          data-project="{{ project.project }}"
+          data-date_range="{{ project.date_range }}"
+          data-href="{{ project.href }}"
+        >
+          <div class="img-holder">
+            <img src="{{ project.img_url }}" alt="{{ project.name }}">
+          </div>
+          {{ project.name }}<br>
+          {{ project.date_range }}
+        </div>
+      </div>
+      {% if modulo == "0" %}
+      <div class="clearfix hiddex-xs"></div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
 </div>
 
 <div class="modal fade" id="portfolio_modal">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">Modal title</h4>
       </div>
       <div class="modal-body container-fluid">
         <div class="col-sm-6">
-            <p class="name"></p>
-            <p class="date_range"></p>
-            <p class="project"></p>
-            <p class="role"></p>
-            <ul class="desc"></ul>
+          <p class="name"></p>
+          <p class="date_range"></p>
+          <p class="project"></p>
+          <p class="role"></p>
+          <ul class="desc"></ul>
         </div>
         <div class="col-sm-6">
-            <p class="img"><img src=""></p>
+          <p class="img"><img src=""></p>
         </div>
       </div>
       <div class="modal-footer">
