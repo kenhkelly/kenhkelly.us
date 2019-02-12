@@ -17,8 +17,11 @@
             <li class="menu-item {% if page.active == "home" %} current-menu-item {% endif %}"><a href="/">Home</a></li>
             <li class="menu-item {% if page.active == "portfolio" %} current-menu-item {% endif %}"><a href="/portfolio">Portfolio</a></li>
             <li class="menu-item {% if page.active == "blog" %} current-menu-item {% endif %}"><a href="/blog">Blog</a></li>
+            <li class="menu-item">
+              <a href="{{ site.resume_url }}">Resume</a>
+            </li>
           </ul>
-        </div> 
+        </div>
         <div class="nav navbar-nav navbar-right">
           <ul class="menu nav navbar-nav">
             <li class="menu-item {% if page.active == "contact" %} current-menu-item {% endif %}"><a href="/contact">Contact Me</a></li>
