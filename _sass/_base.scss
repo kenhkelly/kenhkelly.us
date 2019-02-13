@@ -1,5 +1,4 @@
 @import "bootstrap";
-
 /*@import url(http://weloveiconfonts.com/api/?family=zocial);*/
 @import "zocial";
 
@@ -9,618 +8,664 @@
 }
 
 $green: #87c844;
-$green-grad: linear-gradient( rgba(135, 200, 68, .4), rgba(135, 200, 68, .4) );
+$green-grad: linear-gradient(rgba(135, 200, 68, .4), rgba(135, 200, 68, .4));
 
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
+
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
+
 @mixin spin {
   -webkit-animation: spin .3s ease;
   animation: spin .3s ease;
 }
 
-.zocial-facebook, .zocial-facebook:hover, .social-icon-facebook  { background: #3b5998 !important; }
-.zocial-twitter, .zocial-twitter:hover, .social-icon-twitter  { background: #00aced !important; }
-.zocial-googleplus, .zocial-googleplus:hover, .social-icon-googleplus { background: #dd4b39 !important; }
-.social-icon-youtube { background: #bb0000 }
-.zocial-linkedin, .zocial-linkedin:hover, .social-icon-linkedin { background: #007bb6 !important; }
-.zocial-instagram, .zocial-instagram:hover, .social-icon-instagram { background: #517fa4 !important; }
-.zocial-pinterest, .zocial-pinterest:hover, .social-icon-pinterest { background: #cb2027 !important; }
-.zocial-github, .zocial-github:hover, .social-icon-github { background: #323131 !important; }
-.zocial-rss, .zocial-rss:hover, .social-icon-rss { background: #ff6600 !important; }
-.social-icon-vine  { background: #00bf8f }
-.social-icon-snapchat  { background: #fffc00 }
-.social-icon-quora { background: #a82400 }
-.social-icon-flickr { background: #ff0084 }
-.social-icon-tumblr  { background: #32506d }
-.social-icon-vk { background: #45668e }
-.social-icon-vimeo { background: #aad450 }
-.social-icon-foursquare { background: #0072b1 }
+.zocial-facebook, .zocial-facebook:hover, .social-icon-facebook {
+  background: #3b5998 !important;
+}
+
+.zocial-twitter, .zocial-twitter:hover, .social-icon-twitter {
+  background: #00aced !important;
+}
+
+.zocial-googleplus, .zocial-googleplus:hover, .social-icon-googleplus {
+  background: #dd4b39 !important;
+}
+
+.social-icon-youtube {
+  background: #bb0000
+}
+
+.zocial-linkedin, .zocial-linkedin:hover, .social-icon-linkedin {
+  background: #007bb6 !important;
+}
+
+.zocial-instagram, .zocial-instagram:hover, .social-icon-instagram {
+  background: #517fa4 !important;
+}
+
+.zocial-pinterest, .zocial-pinterest:hover, .social-icon-pinterest {
+  background: #cb2027 !important;
+}
+
+.zocial-github, .zocial-github:hover, .social-icon-github {
+  background: #323131 !important;
+}
+
+.zocial-rss, .zocial-rss:hover, .social-icon-rss {
+  background: #ff6600 !important;
+}
+
+.social-icon-vine {
+  background: #00bf8f
+}
+
+.social-icon-snapchat {
+  background: #fffc00
+}
+
+.social-icon-quora {
+  background: #a82400
+}
+
+.social-icon-flickr {
+  background: #ff0084
+}
+
+.social-icon-tumblr {
+  background: #32506d
+}
+
+.social-icon-vk {
+  background: #45668e
+}
+
+.social-icon-vimeo {
+  background: #aad450
+}
+
+.social-icon-foursquare {
+  background: #0072b1
+}
 
 .m-t-0 {
-    margin-top: 0px !important;
+  margin-top: 0px !important;
 }
+
 .m-r-0 {
-    margin-right: 0px !important;
+  margin-right: 0px !important;
 }
+
 .m-b-0 {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
+
 .m-l-0 {
-    margin-left: 0px !important;
+  margin-left: 0px !important;
 }
+
 .m-t-15 {
-    margin-top: 15px !important;
+  margin-top: 15px !important;
 }
+
 .m-r-15 {
-    margin-right: 15px !important;
+  margin-right: 15px !important;
 }
+
 .m-b-15 {
-    margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
+
 .m-l-15 {
-    margin-left: 15px !important;
+  margin-left: 15px !important;
 }
+
 .p-t-0 {
-    padding-top: 0px !important;
+  padding-top: 0px !important;
 }
+
 .p-r-0 {
-    padding-right: 0px !important;
+  padding-right: 0px !important;
 }
+
 .p-b-0 {
-    padding-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
+
 .p-l-0 {
-    padding-left: 0px !important;
+  padding-left: 0px !important;
 }
+
 .p-t-15 {
-    padding-top: 15px !important;
+  padding-top: 15px !important;
 }
+
 .p-r-15 {
-    padding-right: 15px !important;
+  padding-right: 15px !important;
 }
+
 .p-b-15 {
-    padding-bottom: 15px !important;
+  padding-bottom: 15px !important;
 }
+
 .p-l-15 {
-    padding-left: 15px !important;
+  padding-left: 15px !important;
 }
 
 html, html body {
-    height: 100%;
+  height: 100%;
 }
+
 body {
-    font-size: 18px;
-    background: $green;
-    color: #6c6c6c;
-    
-    img {
-        max-width: 100%;
-    }
+  font-size: 18px;
+  background: $green;
+  color: #6c6c6c;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 body.home {
-    height: 100%;
-    position: relative;
-    #header {
-        background: transparent;
-        min-height: 49px !important;
-        .navbar {
-            top: 0;
-        }
+  height: 100%;
+  position: relative;
+  #header {
+    background: transparent;
+    min-height: 49px !important;
+    .navbar {
+      top: 0;
     }
+  }
 }
 
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-} 
+  margin-bottom: $spacing-unit / 2;
+}
 
 #header {
-    /*background: url('/images/10505194_10152600876132430_5687309096170223867_o.jpg') 42% 62%;*/
-    /*background-size: cover;*/
-    /*min-height: 300px;*/
-    /*position: relative;*/
+  .sub-menu {
+    text-transform: uppercase;
+  }
+  .navbar {
+    position: fixed;
+    z-index: 50;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    background: $green;
+    .navbar-brand {
+      background: url('/images/kenhkelly-logo.png') no-repeat 7px 7px;
+      width: 50px;
+      &:hover {
+        background: url('/images/kenhkelly-logo.png') no-repeat 7px 7px, darken($green, 10%);
+      }
+    }
+    .menu {
+    }
+    .menu > li.active, .menu > .current-menu-item, .menu > li:hover, .menu > li:active, .menu > .open {
+      & > a {
+        background: darken($green, 10%);
+      }
+    }
+    a {
+      color: white;
+      transition: all .3s;
+    }
+    .dropdown-menu {
+      margin: 0;
+      border-radius: 0 0 4px 4px;
+    }
     .sub-menu {
-        /*.dropdown-menu;*/
-        text-transform: uppercase;
-    }
-    .navbar {
-        position: fixed;
-        /*top: 250px;*/
-        z-index: 50;
-        /*bottom: -1px;*/
-        /*margin-top: 300px;*/
-        margin-bottom: 0;
-        width: 100%;
-        border-radius: 0;
-        border: none;
+      background: $green;
+      a {
         background: $green;
-        .navbar-brand {
-            background: url('/images/kenhkelly-logo.png') no-repeat  7px 7px;
-            width: 50px;
-            &:hover {
-                background: url('/images/kenhkelly-logo.png') no-repeat  7px 7px, darken($green, 10%);
-            }
+        &:hover {
+          background: darken($green, 10%);
         }
-        .menu {
-            /*.nav;*/
-            /*.navbar-nav;*/
-        }
-        .menu > li.active, .menu > .current-menu-item, .menu > li:hover, .menu > li:active, .menu > .open {
-            & > a {
-                background: darken($green, 10%);
-            }
-        }
+      }
+      .sub-menu {
+        list-style: none;
+        padding: 0;
         a {
-            color: white;
-            transition: all .3s;
+          display: block;
+          padding-left: 30px;
+          text-decoration: none;
         }
-        .dropdown-menu {
-            margin: 0;
-            border-radius: 0 0 4px 4px;
-        }
-        .sub-menu {
-            background: $green;
-            a {
-                background: $green;
-                &:hover {
-                    background: darken($green, 10%);
-                }
-            }
-            .sub-menu {
-                list-style: none;
-                padding: 0;
-                a {
-                    display: block;
-                    padding-left: 30px;
-                    text-decoration: none;
-                }
-            }
-        }
-
-        .zocial, [class*="zocial-"] {
-            width: 50px;
-            text-align: center;
-            float: left;
-            &:hover {
-                text-decoration: none;
-                &:before {
-                    display: inline-block;
-                    @include spin;
-                }
-            }
-        }
-
-        @media (min-width: $screen-sm-min) {
-            
-            li.dropdown:hover ul.dropdown-menu {
-                display: block;
-            }
-        }
-        @media (max-width: $screen-xs-max) {
-            .navbar-nav, .menu {
-                margin: 0;
-            }
-            .navbar-right {
-                margin-bottom: 8px;
-            }
-            /*li a { padding-left: 25px;}*/
-            .zocial {
-                float: left;
-                margin-top: 6px;
-                padding-left: 15px;
-            }
-            .zocial-facebook {
-                /*margin-left: 15px;*/
-            }
-        }
-        .icon-bar {
-            background: white;
-        }
-        .navbar-toggle {
-            &:active, &:hover {
-                background: white;
-                .icon-bar {
-                    background: $green;
-                }
-            }
-        }
+      }
     }
+
+    .zocial, [class*="zocial-"] {
+      width: 50px;
+      text-align: center;
+      float: left;
+      &:hover {
+        text-decoration: none;
+        &:before {
+          display: inline-block;
+          @include spin;
+        }
+      }
+    }
+
+    @media (min-width: $screen-sm-min) {
+
+      li.dropdown:hover ul.dropdown-menu {
+        display: block;
+      }
+    }
+    @media (max-width: $screen-xs-max) {
+      .navbar-nav, .menu {
+        margin: 0;
+      }
+      .navbar-right {
+        margin-bottom: 8px;
+      }
+      .zocial {
+        float: left;
+        margin-top: 6px;
+        padding-left: 15px;
+      }
+      .zocial-facebook {
+      }
+    }
+    .icon-bar {
+      background: white;
+    }
+    .navbar-toggle {
+      &:active, &:hover {
+        background: white;
+        .icon-bar {
+          background: $green;
+        }
+      }
+    }
+  }
 }
 
 #footer {
-    background: $green;
-    /*border-top: 2px solid darken($green, 10%);*/
-    padding: 25px 0;
+  background: $green;
+  padding: 25px 0;
+  color: white;
+  a {
     color: white;
-    a {
-        color: white;
-    }
-    .social {
-        float: left;
-    }
-    .copyright {
-        float: right;
-    }
+  }
+  .social {
+    float: left;
+  }
+  .copyright {
+    float: right;
+  }
 }
 
 #main {
-    background: #fbfbfb;
-    padding-top: 75px;
-    /*font-size: 18px;*/
-    /*color: #232323;*/
-    /*color: #6c6c6c;*/
+  background: #fbfbfb;
+  padding-top: 75px;
 
-    h1,h2,h3,h4,h5,h6 {
-        color: $green;
-    }
+  h1, h2, h3, h4, h5, h6 {
+    color: $green;
+  }
 
-    .padt20 {
-        padding-top: 20px;
-    }
+  .padt20 {
+    padding-top: 20px;
+  }
 
-    .btn-green {
-        background: $green;
-        color: white;
+  .btn-green {
+    background: $green;
+    color: white;
+  }
+  [data-toggle="popover"] {
+    border-bottom: 1px dotted $green;
+    cursor: pointer;
+  }
+  .btn {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid darken($green, 10%);
+    position: relative;
+    padding: 10px 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+    text-decoration: none;
+    &:active {
+      top: 1px;
+      border-bottom-width: 1px;
     }
-    [data-toggle="popover"] {
-        border-bottom: 1px dotted $green;
-        cursor: pointer;
-    }
-    .btn {
-        border-radius: 0;
-        border: 0;
-        border-bottom: 2px solid darken($green, 10%);
-        position: relative;
-        padding: 10px 15px;
-        text-shadow: 0 1px 2px rgba(0,0,0,.25);
-        text-decoration: none;
-        &:active {
-            top: 1px;
-            border-bottom-width: 1px;
-        }
-    }
+  }
 }
 
 .Home {
-    .slogan {
-        text-align: center;
-        background: url('/images/10505194_10152600876132430_5687309096170223867_o.jpg') center center;
-        background-size: cover;
-        padding: 22% 0;
-        /*max-height: 50vh;*/
-        /*font-size: 3vw;*/
+  .slogan {
+    text-align: center;
+    background: url('/images/10505194_10152600876132430_5687309096170223867_o.jpg') center center;
+    background-size: cover;
+    padding: 22% 0;
 
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+    .signed {
+      float: right;
+      margin-right: 25%;
+      margin-top: 0%;
+    }
+  }
+  .homeNav {
+    margin: 0;
+    & > div {
+      text-align: center;
+      font-size: 3vw;
+      text-transform: uppercase;
+      position: relative;
+      padding: 0;
+      a {
         color: white;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
-        .signed {
-            /*font-family: Coronetscript, cursive;*/
-            /*transform: rotate(-12deg);*/
-            float: right;
-            margin-right: 25%;
-            margin-top: 0%;
+        display: block;
+        width: 100%;
+        padding: 20% 0;
+        white-space: nowrap;
+        transition: all .3s;
+        position: relative;
+        z-index: 3;
+        &:hover, &:focus {
+          box-shadow: inset 0 0 50px 50px rgba(0, 0, 0, .2);
+          text-decoration: none;
         }
+      }
+      &.about-link {
+        background: rgb(0, 107, 60);
+        background: #007cdc;
+      }
+      &.portfolio-link {
+        background: rgb(93, 138, 168);
+        background: #7826ae;
+      }
+      &.blog-link {
+        background: rgb(255, 191, 0);
+      }
+      &.contact-link {
+        background: rgb(255, 32, 82);
+        background: #fd8345;
+      }
     }
-    .homeNav {
-        margin: 0;
-        & > div {
-            /*padding: 7% 0;*/
-            text-align: center;
-            /*font-size: 1.5em;*/
-            font-size: 3vw;
-            text-transform: uppercase;
-            position: relative;
-            padding: 0;
-            a {
-                color: white;
-                display: block;
-                width: 100%;
-                padding: 20% 0;
-                white-space: nowrap;
-                transition: all .3s;
-                position: relative;
-                z-index: 3;
-                &:hover, &:focus {
-                    /*text-shadow: 0 1px 100px rgba(0,0,0,.8);*/
-                    box-shadow: inset 0 0 50px 50px rgba(0, 0, 0, .2);
-                    text-decoration: none;
-                }
-            }
-            &.about-link {
-                /*background: $green-grad, url('../images/IMG_1572.jpg');*/
-                /*background-size: cover;*/
-                background: rgb(0, 107, 60);
-                background: #007cdc;
-            }
-            &.portfolio-link {
-                background: rgb(93, 138, 168);
-                background: #7826ae;
-            }
-            &.blog-link {
-                background: rgb(255, 191, 0);
-            }
-            &.contact-link {
-                background: rgb(255, 32, 82);
-                background: #fd8345;
-            }
-        }
-    }
+  }
 }
 
 .About {
-    .bio {
-        p {
-            margin-bottom: 25px;
-        }
-        .jumbotron {
-            .h1 {
-                font-size: 43px !important;
-            }
-        }
+  .bio {
+    p {
+      margin-bottom: 25px;
     }
-    .progress {
-        @extend .pull-right;
-        height: 7px;
-        width: 80%;
-        .progress-bar {
-            background: $green;
-        }
+    .jumbotron {
+      .h1 {
+        font-size: 43px !important;
+      }
     }
-    .skill-block {
-        margin-top: 25px;
-        p {
-            clear: both;
-            display: inline-block;
-        }
+  }
+  .progress {
+    @extend .pull-right;
+    height: 7px;
+    width: 80%;
+    .progress-bar {
+      background: $green;
     }
+  }
+  .skill-block {
+    margin-top: 25px;
+    p {
+      clear: both;
+      display: inline-block;
+    }
+  }
 }
 
 .Portfolio {
-    .portfolio-items {
-        .col-sm-4 {
-            text-align: center;
-            .thumbnail {
-                cursor: pointer;
-                transition: all .3s;
-                &:hover {
-                    position: relative;
-                    z-index: 4;
-                    -webkit-transform: scale(1.1);
-                    transform: scale(1.1);
-                    box-shadow: 0 3px 4px -4px rgba(0, 0, 0, .8);
-                }
+  .portfolio-items {
+    .col-sm-4 {
+      text-align: center;
+      .thumbnail {
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+          position: relative;
+          z-index: 4;
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+          box-shadow: 0 3px 4px -4px rgba(0, 0, 0, .8);
+        }
 
-                .img-holder {
-                    max-height: 192px;
-                    overflow: hidden;
-                }
-            }
+        .img-holder {
+          max-height: 192px;
+          overflow: hidden;
         }
+      }
     }
-    .modal {
-        img {
-            max-width: 100%;
-            width: 100%;
-        }
+  }
+  .modal {
+    img {
+      max-width: 100%;
+      width: 100%;
     }
+  }
 }
 
 .Blog {
-    .subscribe {
-        margin-top: 35px;
-        a {
-            color: white;
-            background: #ff6600;
-            padding: 9px;
-            .zocial-rss {
-                background: transparent !important;
-            }
-            &:hover {
-                text-decoration: none;
-                color: #ff6600;
-                background: transparent;
-            }
-        }
-    }
-    .article {
-        margin: 25px 0;
-        background: #fff;
-        border-radius: 3px;
-        padding: 0 15px 15px 15px;
-        .title {
-            background: rgba(0,0,0,.8);
-            /*background: url(attr(data-bg));*/
-            margin: 0 -15px 15px;
-            border-radius: 3px 3px 0 0;
-            p {
-                font-size: 3rem;
-                width: 85%;
-                margin: auto;
-                padding: 50px 0;
-                color: white;
-                a {
-                    color: white;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
-        }
-        .post {
-            .meta {
-                font-size: smaller;
-                margin-bottom: 10px;
-                text-align: right;
-                a {
-                    text-decoration: none;
-                }
-                .date {
-                    color: #b6b6b6;
-                    text-transform: uppercase;
-                    /*font-size: smaller;*/
-                    /*float: right;*/
-                }
-                .comments {
-                    float: right;
-                }
-            }
-        }
-    }
-}
-.singlePostPage {
-    .post_heading {
+  .subscribe {
+    margin-top: 35px;
+    a {
+      color: white;
+      background: #ff6600;
+      padding: 9px;
+      .zocial-rss {
+        background: transparent !important;
+      }
+      &:hover {
         text-decoration: none;
+        color: #ff6600;
+        background: transparent;
+      }
     }
-    .container {
-        /*background: #fff;*/
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-    /*.post_content {
-        float: left;
-        width: calc(100% - 350px);
-        padding-right: 15px;
-    }*/
-    .signup_widget {
-        float: right;
-    }
-    .meta {
-        text-align: center;
-        font-size: smaller;
-        margin-bottom: 23px;
+  }
+  .article {
+    margin: 25px 0;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 15px 15px 15px;
+    .title {
+      background: rgba(0, 0, 0, .8);
+      margin: 0 -15px 15px;
+      border-radius: 3px 3px 0 0;
+      p {
+        font-size: 3rem;
+        width: 85%;
+        margin: auto;
+        padding: 50px 0;
+        color: white;
         a {
-            text-decoration: none;
+          color: white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .post {
+      .meta {
+        font-size: smaller;
+        margin-bottom: 10px;
+        text-align: right;
+        a {
+          text-decoration: none;
         }
         .date {
-            color: #b6b6b6;
-            text-transform: uppercase;
-            /*font-size: smaller;*/
-            /*float: right;*/
-            &.small {
-                font-size: smaller;
-            }
-            span {
-                text-transform: capitalize;
-            }
+          color: #b6b6b6;
+          text-transform: uppercase;
         }
-    }
-    .comments {
-        margin-top: 15px;
-    }
-    .post_sidebar {
-        a {
-            margin: 5px 0;
-            display: inline-block;
+        .comments {
+          float: right;
         }
+      }
     }
+  }
 }
+
+.singlePostPage {
+  .post_heading {
+    text-decoration: none;
+  }
+  .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .signup_widget {
+    float: right;
+  }
+  .meta {
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 23px;
+    a {
+      text-decoration: none;
+    }
+    .date {
+      color: #b6b6b6;
+      text-transform: uppercase;
+      &.small {
+        font-size: smaller;
+      }
+      span {
+        text-transform: capitalize;
+      }
+    }
+  }
+  .comments {
+    margin-top: 15px;
+  }
+  .post_sidebar {
+    a {
+      margin: 5px 0;
+      display: inline-block;
+    }
+  }
+}
+
 .Blog, .singlePostPage {
-    .tags {
-        text-align: right;
-        font-size: .7em;
-        &, a {
-            text-transform: lowercase;
-            font-style: italic;
-            color: #bbb;
-        }
+  .tags {
+    text-align: right;
+    font-size: .7em;
+    &, a {
+      text-transform: lowercase;
+      font-style: italic;
+      color: #bbb;
     }
+  }
 }
+
 .mailing-list-signup {
-    width: 250px;
-    margin: auto;
+  width: 250px;
+  margin: auto;
 }
+
 .paging-nav {
-    & > div {
-        display: inline-block;
-    }
-    .nav-previous {
-        float: left;
-    }
-    .nav-next {
-        float: right;
-    }
+  & > div {
+    display: inline-block;
+  }
+  .nav-previous {
+    float: left;
+  }
+  .nav-next {
+    float: right;
+  }
 }
+
 .Tags {
-    @media (min-width: $screen-lg-min) {
-        [class*="col-"]:nth-child(even) {
-            background: #eee;
-        }
+  @media (min-width: $screen-lg-min) {
+    [class*="col-"]:nth-child(even) {
+      background: #eee;
     }
-    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-        [class*="col-"]:nth-child(3n+2) {
-            background: #eee;
-        }
+  }
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    [class*="col-"]:nth-child(3n+2) {
+      background: #eee;
     }
-    @media (max-width: $screen-xs-max) {
-        [class*="col-"] {
-            background: transparent;
-        }
+  }
+  @media (max-width: $screen-xs-max) {
+    [class*="col-"] {
+      background: transparent;
     }
+  }
 }
 
 .Contact {
-    [class*="social"] {
-        background: $green !important;
-        width: 170px;
-        color: white;
-        padding: 15px;
-        margin: 15px 0;
-        float: right;
-        clear: both;
-        transition: all .3s;
-        &:before {
-            padding-right: 10px;
-            float: left;
-        }
-        &:hover {
-            padding-right: 25px;
-            &:before {
-                @include spin;
-            }
-        }
-        &.zocial-facebook:hover {
-            text-decoration: none;
-            @extend .zocial-facebook;
-        }
-        &.zocial-twitter:hover {
-            text-decoration: none;
-            @extend .zocial-twitter;
-        }
-        &.zocial-linkedin:hover {
-            text-decoration: none;
-            @extend .zocial-linkedin;
-        }
+  [class*="social"] {
+    background: $green !important;
+    width: 170px;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+    float: right;
+    clear: both;
+    transition: all .3s;
+    &:before {
+      padding-right: 10px;
+      float: left;
     }
+    &:hover {
+      padding-right: 25px;
+      &:before {
+        @include spin;
+      }
+    }
+    &.zocial-facebook:hover {
+      text-decoration: none;
+      @extend .zocial-facebook;
+    }
+    &.zocial-twitter:hover {
+      text-decoration: none;
+      @extend .zocial-twitter;
+    }
+    &.zocial-linkedin:hover {
+      text-decoration: none;
+      @extend .zocial-linkedin;
+    }
+  }
 }
 
 .Thanks {
-    .jumbotron {
-        background: transparent;
-    }
+  .jumbotron {
+    background: transparent;
+  }
 }
 
 .signup_widget {
-    width: 350px;
-    padding: 15px;
-    border-radius: 3px;
-    background: white;
-    border: 1px solid #ededed;
+  width: 350px;
+  padding: 15px;
+  border-radius: 3px;
+  background: white;
+  border: 1px solid #ededed;
 }
 
-
 @media (max-width: $screen-xs-max) {
-    img {
-        max-width: 100%;
+  img {
+    max-width: 100%;
+  }
+  .Home {
+    .slogan {
+      .h1 {
+        font-size: 3vh;
+      }
     }
-    .Home {
-        .slogan {
-            .h1 { font-size: 3vh; }
-        }
-    }
+  }
 }
